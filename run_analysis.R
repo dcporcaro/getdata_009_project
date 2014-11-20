@@ -1,4 +1,4 @@
-setwd("C:/Users/LoveDoves/Desktop/R Working Directory/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test")
+setwd("C:/Users/dcp/R Working Directory/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 x_test <- read.table("x_test.txt")
 y_test <- read.table("y_test.txt")
 subject_test <- read.table("subject_test.txt")
