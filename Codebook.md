@@ -10,6 +10,7 @@
 * 4 SITTING
 * 5 STANDING
 * 6 LAYING
+
 ###### These were renamed as follows:
 * Walking = 1, 
 * Walking_upstairs = 2, 
