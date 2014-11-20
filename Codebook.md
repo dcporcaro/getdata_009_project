@@ -25,17 +25,21 @@
 * If a measurement had “f” at the beginning, it now reads “FFT” for Fast Fourier Transformation
 * If a measurement was a mean, the “-mean()” was replaced with “Mean”
 * If a measurement was a standard deviation, the “-std()” was replaced with “SD”
+
 ##### The measurements in the tidy data were computed as averages for each activity and subject.  They are all numeric.
 ###### The raw data was collected from the accelerometer and gyroscope 3-axial raw signals.  Each axis represented data in the X, Y, or Z direction.  The data was provided in six different files, three for test and three for train
 ##### The three raw test data files had data as follows: 
 * y_test  contained a numeric representation of an activity, such as walking or sitting.  The numbers ranged from 1 to 6 to correspond with the six monitored activities, named below
 * subject_test contained a numeric representation for each participant.  The numbers ranged from one to 24
-* x_test contained the measurements from the accelerometer and gyroscope, as well as mathematical derivations from those measurements.  There were 561 variables, and 2947 measurements of those variables.  
+* x_test contained the measurements from the accelerometer and gyroscope, as well as mathematical derivations from those measurements.  There were 561 variables, and 2947 measurements of those variables.
+
 ##### While I loaded all in originally, I was only concerned with mean and standard deviation, and eventually reduced the number of variables as I created a tidy data set
+
 ##### The three raw train data files had data as follows: 
 * y_train  contained a numeric representation of an activity, such as walking or sitting.  The numbers ranged from 1 to 6 to correspond with the six monitored activities, named below
 * subject_train contained a numeric representation for each participant.  The numbers ranged from one to 24
 * x_train contained the measurements from the accelerometer and gyroscope, as well as mathematical derivations from those measurements.  There were 561 variables, and 7352 measurements of those variables.  
+
 #####  While I loaded all in originally, I was only concerned with mean and standard deviation, and eventually reduced the number of variables as I created a tidy data set
 
 
