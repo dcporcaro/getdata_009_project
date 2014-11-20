@@ -57,7 +57,7 @@
 ##### Finally, if a dimension was represented, it was added with a hyphen and a letter, X, Y, or Z
 * tBodyAccJerk-mean()-X
 
-#### Original Raw data variable names
+#### Original Raw data variable collection and mathematical calculations
 ##### The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 * tAcc-XYZ  accelerometer 3-axial raw signals
 * tBodyAcc-XYZ   acceleration signal was then separated into body acceleration signals 
