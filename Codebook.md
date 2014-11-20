@@ -3,6 +3,7 @@
 ##### The Subjects and Activities became the first two columns.  
 * Subjects were the people who participated in the study, numbered one to 30.  This was not changed in going from raw to tidy.  There are 30 numeric entries of the class integer.
 * Activities were the six things the Subjects did as measurements were collected.  There are six choices of the class character.
+
 ###### The original names of the Activities were in a text file, and were represented in the raw data numerically as follows:
 * 1 WALKING
 * 2 WALKING_UPSTAIRS
@@ -18,6 +19,7 @@
 * Sitting = 4, 
 * Standing = 5, 
 * Lying_down = 6
+
 ##### The measurements were renamed to expand abbreviations and remove non-alphabetic characters.  
 * If a measurement had “t” at the beginning, it now reads “Time” 
 * If a measurement had “f” at the beginning, it now reads “FFT” for Fast Fourier Transformation
