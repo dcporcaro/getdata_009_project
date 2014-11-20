@@ -1,7 +1,7 @@
-## getdata_009_project
+### getdata_009_project
 ===================
 
-### Github repo with the code for performing the analysis required in Getting and Cleaning Data 009 Course Project
+#### Github repo with the comments and code for performing the analysis required in Getting and Cleaning Data 009 Course Project.
 ```
 ## Part 1 of course project, merge train and test sets to create one data set
 
@@ -39,7 +39,7 @@ merged_train_test <- rbind(merged_test, merged_train)
 
 ## merged_train_test is the one data set for part 1 of the course project.  There are no column and row names yet.
 
-## Part 2 of the source project, extract only the measurements on the mean and standard deviation for each of the 10299 rows or measurements
+## Part 2 of the course project, extract only the measurements on the mean and standard deviation for each of the 10299 rows or measurements
 
 ## First, add column names 
 
@@ -49,7 +49,7 @@ merged_train_test <- rbind(merged_test, merged_train)
 
 ## For the remaining 561 columns, the  names  are in the file features.txt.  
 ## I modified features.txt to add "Activity" and "Subject" to the top of the list, so I have 563 items listed, one item for each column in my merged_train_test data frame.
-## I renamed the file features2.txt and then made the 563 entries the column names for my data frame
+## I renamed the file features2.txt and then made the 563 entries into the column names for my data frame using colnames
 
 features <- read.table("features2.txt")
 colnames(merged_train_test) <- features[,2]
@@ -64,7 +64,7 @@ only_mean_and_sd <- merged_train_test[ , grepl( "Activity|Subject|-mean[()]|-std
 
 only_mean_and_sd$Activity <- as.numeric(as.character(only_mean_and_sd$Activity)) 
 
-## substitute in the activity description in place of the existing numbers 1:6
+## substitute in the activity description in place of the existing numbers 1:6.  Details are in the Codebook
 
 activities <- c(Walking = 1, Walking_upstairs = 2, Walking_downstairs = 3, Sitting = 4, Standing = 5, Lying_down = 6)
 only_mean_and_sd$Activity <- names(activities)[match(only_mean_and_sd$Activity, activities)]
