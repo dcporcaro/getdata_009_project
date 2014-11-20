@@ -33,8 +33,6 @@
 * subject_test contained a numeric representation for each participant.  The numbers ranged from one to 24
 * x_test contained the measurements from the accelerometer and gyroscope, as well as mathematical derivations from those measurements.  There were 561 variables, and 2947 measurements of those variables.
 
-##### While I loaded all in originally, I was only concerned with mean and standard deviation, and eventually reduced the number of variables as I created a tidy data set
-
 ##### The three raw train data files had data as follows: 
 * y_train  contained a numeric representation of an activity, such as walking or sitting.  The numbers ranged from 1 to 6 to correspond with the six monitored activities, named below
 * subject_train contained a numeric representation for each participant.  The numbers ranged from one to 24
@@ -47,16 +45,17 @@
 ##### The original names contained abbreviations and characters that made them hard to read.  An example (the complete list is at the bottom of this document)
 * tBodyAccJerkMag
 * fBodyBodyAccJerkMag
+
 ##### the prefix “t” or “f” represented either a time measurement or a Fast Fourier Transformation
 ##### The set of variables for mean and standard deviation that were estimated from these signals were represented in the raw data with suffixes as follows: 
 * mean(): Mean value
 * std(): Standard deviation
+
 ##### An example
 * tBodyGyroJerkMag-mean()
+
 ##### Finally, if a dimension was represented, it was added with a hyphen and a letter, X, Y, or Z
 * tBodyAccJerk-mean()-X
-
-
 
 #### Original Raw data variable names
 ##### The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
