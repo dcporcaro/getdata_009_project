@@ -2,7 +2,7 @@ getdata_009_project
 ===================
 
 Github repo with the code for performing the analysis required in Getting and Cleaning Data 009 Course Project
-
+```
 ## Part 1 of course project, merge train and test sets to create one data set
 
 ## set working directory, make sure all the files you need are in there using dir()
@@ -88,4 +88,4 @@ colnames(only_mean_and_sd) <- features_updated[,2]
 > abc <- dcast(Molten, Subject + Activity ~ variable, fun = mean)
 
 ## The result is a data frame with 180 observations (30 subjects by 6 activities) and 68 columns (Subject, Activity, and the 66 variables with either mean or std)
-
+```
