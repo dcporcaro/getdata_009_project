@@ -18,10 +18,10 @@
 * Standing = 5, 
 * Lying_down = 6
 ##### The measurements were renamed to expand abbreviations and remove non-alphabetic characters.  
-* If a measurement had “t” at the beginning, it now reads “Time” 
-* If a measurement had “f” at the beginning, it now reads “FFT” for Fast Fourier Transformation
-* If a measurement was a mean, the “-mean()” was replaced with “Mean”
-* If a measurement was a standard deviation, the “-std()” was replaced with “SD”
+* If a measurement had â€œtâ€ at the beginning, it now reads â€œTimeâ€ 
+* If a measurement had â€œfâ€ at the beginning, it now reads â€œFFTâ€ for Fast Fourier Transformation
+* If a measurement was a mean, the â€œ-mean()â€ was replaced with â€œMeanâ€
+* If a measurement was a standard deviation, the â€œ-std()â€ was replaced with â€œSDâ€
 ##### The measurements in the tidy data were computed as averages for each activity and subject.  They are all numeric.
 ###### The raw data was collected from the accelerometer and gyroscope 3-axial raw signals.  Each axis represented data in the X, Y, or Z direction.  The data was provided in six different files, three for test and three for train
 ##### The three raw test data files had data as follows: 
@@ -40,7 +40,7 @@
 ##### The original names contained abbreviations and characters that made them hard to read.  An example (the complete list is at the bottom of this document)
 * tBodyAccJerkMag
 * fBodyBodyAccJerkMag
-##### the prefix “t” or “f” represented either a time measurement or a Fast Fourier Transformation
+##### the prefix â€œtâ€ or â€œfâ€ represented either a time measurement or a Fast Fourier Transformation
 ##### The set of variables for mean and standard deviation that were estimated from these signals were represented in the raw data with suffixes as follows: 
 * mean(): Mean value
 * std(): Standard deviation
@@ -76,7 +76,7 @@
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-##### The set of variables that were estimated from these signals are below.  For the tidy data, I retained only “mean()” and “std()” 
+##### The set of variables that were estimated from these signals are below.  For the tidy data, I retained only â€œmean()â€ and â€œstd()â€ 
 
 * mean(): Mean value
 * std(): Standard deviation
