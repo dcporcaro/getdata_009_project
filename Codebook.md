@@ -1,5 +1,5 @@
 #### Codebook for getdata009 Course Project
-##### The raw data was assembled from 6 files, as detailed below
+##### The raw data was assembled from 6 files, as detailed below in an expansion on the raw data, and supplemented from several text files that contained background information used to create column names, row names, and descriptive variable laebls (column names)
 ##### The Subjects and Activities became the first two columns.  
 * Subjects were the people who participated in the study, numbered one to 30.  This was not changed in going from raw to tidy.  There are 30 numeric entries of the class integer.
 * Activities were the six things the Subjects did as measurements were collected.  There are six choices of the class character.
